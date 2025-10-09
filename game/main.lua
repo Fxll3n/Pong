@@ -11,7 +11,7 @@ function love.load()
 
     local image = love.graphics.newImage("assets/dvd.png")
 
-    shader = love.graphics.newShader("assets/CRT.fs")
+    shader = love.graphics.newShader("assets/rainbow.fs")
 
     ball = Ball:new(10, 10, image:getWidth(), image:getHeight(), image)
 end
